@@ -24,7 +24,7 @@ The `notebooks` folder contains `jupyter` notebooks with data preprocessing, dat
 
 ## Models
 
-Fully-trained baselines and `RoBERTa` models are available in the `models` folder.
+Fully-trained baselines in a zip file and checkpoints of `RoBERTa` models are available in the `models` folder.
 
 ## Text
 
