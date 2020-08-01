@@ -29,3 +29,7 @@ Fully-trained baselines in a zip file and checkpoints of `RoBERTa` models are av
 ## Text
 
 The `text` folder contains thesis in `PDF` format and the `text/source` folder contains its corresponding source files.
+
+## Other
+
+The `setup.py` serves for python module installation and `environment.yml` is a `yaml` file listing required `conda` dependencies.
