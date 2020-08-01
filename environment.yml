@@ -1,0 +1,37 @@
+---
+channels:
+  - https://artifacts.merck.com/artifactory/conda-conda-forge-remote     
+  - https://artifacts.merck.com/artifactory/conda-pkgs-main-remote       
+  - https://artifacts.merck.com/artifactory/conda-bioconda-remote
+  - nodefaults
+
+dependencies:
+  - python >= 3.7,<3.8
+  - pip
+  - nodejs
+  - jupyterlab
+  - matplotlib
+  - umap-learn
+  - pandas
+  - biopython
+  - seaborn
+  - scikit-learn
+  - tqdm
+  - papermill
+  - tensorboard
+  - libgcc
+  - dask
+  - dask-jobqueue
+  - fastparquet
+  - pyarrow
+  - pathlib
+  - logomaker
+  - python-snappy
+  - rdkit
+  - swifter
+  - pip:
+    - cmake
+    - MulticoreTSNE
+    - tensorboardX
+    - ipywidgets
+    - git+https://github.com/prihoda/fairseq.git@oas
